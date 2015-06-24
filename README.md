@@ -1,6 +1,8 @@
 [Honeybadger](https://honeybadger.io) client for [Elixir](http://elixir-lang.org/).
 
-Work in progress.
+[CI status](https://circleci.com/gh/joakimk/honeybadger)
+
+**Status**: Work in progress. Will import the basic client from [content\_translator](https://github.com/barsoom/content\_translator).
 
 ## TODO: Basic version
 
@@ -14,6 +16,7 @@ Work in progress.
 ## TODO: Proper version
 
 - [ ] Report stacktrace, etc.
+- [ ] CI with multiple elixir/erlang versions
 
 ## Contributing
 
