@@ -2,19 +2,25 @@
 
 [CI status](https://circleci.com/gh/joakimk/honeybadger)
 
-**Status**: Work in progress. Will import the basic client from [content\_translator](https://github.com/barsoom/content\_translator).
+**Status**: Seems to work. Very basic.
 
 ## Usage
 
-TODO: mix package
-TODO: how to add the app
-TODO: set HONEYBADGER_API_KEY environment variable
+Add to deps:
+
+    {:honeybadger, github: "joakimk/honeybadger"},
+
+Add to applications list:
+
+    :honeybadger
+
+Set the `HONEYBADGER_API_KEY` environment variable and recompile your code.
 
 ## TODO: Basic version
 
 - [x] add CI
 - [x] implement OTP app with the basic error reporting code from content\_translator
-- [ ] try to use the app in content\_translator
+- [x] try to use the app in content\_translator
 - [ ] get @version in Honeybadger.ErrorLogger from mix
 - [ ] write tests and refactor
 - [ ] publish a hex package
