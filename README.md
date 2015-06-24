@@ -4,6 +4,7 @@ Work in progress.
 
 ## TODO: Basic version
 
+- [ ] add CI
 - [ ] implement OTP app with the basic error reporting code from content\_translator
 - [ ] try to use the app in content\_translator
 - [ ] publish a hex package
