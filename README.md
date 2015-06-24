@@ -16,9 +16,11 @@ Work in progress.
 
 ## Contributing
 
-* Pull requests should have:
-  - tests
-  - refactored code that conforms to the style of the project
-  - updated documentation
-* I will only merge code that conforms to the above. I won't fix your code, but I will try and give feedback.
-* If this project becomes too inactive, feel free to ask about taking over as as maintainer.
+* Pull requests:
+  - Are very welcome :)
+  - Should have tests
+  - Should have refactored code that conforms to the style of the project
+  - Should have updated documentation
+  - Should implement or fix something that makes sense for this library (feel free to ask if you are unsure)
+  - Will only be merged if all the above is fulfilled. I won't fix your code, but I will try and give feedback.
+* If this project ever becomes too inactive, feel free to ask about taking over as as maintainer.
