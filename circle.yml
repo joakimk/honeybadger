@@ -1,3 +1,7 @@
+# The versions used in CI, parsed by script/ci/prepare.sh
+# erlang_version=17.5
+# elixir_version=1.0.4
+
 dependencies:
   pre:
     - script/ci/prepare.sh
