@@ -2,7 +2,7 @@
 
 [CI status](https://circleci.com/gh/joakimk/honeybadger)
 
-**Status**: Seems to work. Very basic.
+**Status**: It's very basic, but it works. There is an official client in the works by the honeybadger team, so the future of this client is a bit unsure.
 
 ## Usage
 
