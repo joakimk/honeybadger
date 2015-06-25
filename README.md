@@ -21,11 +21,11 @@ Set the `HONEYBADGER_API_KEY` environment variable and recompile your code.
 - [x] add CI
 - [x] implement OTP app with the basic error reporting code from content\_translator
 - [x] try to use the app in content\_translator
+- [x] tweet about it, notify honeybadger to update links
 - [ ] get @version in Honeybadger.ErrorLogger from mix
 - [ ] write tests and refactor
 - [ ] publish a hex package
 - [ ] document how to use it
-- [ ] tweet about it, notify honeybadger to update links
 
 ## TODO: Proper version
 
