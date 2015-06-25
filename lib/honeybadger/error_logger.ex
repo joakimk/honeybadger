@@ -38,7 +38,7 @@ defmodule Honeybadger.ErrorLogger do
         version: @version
       },
       error: %{
-        class: "Error",
+        class: error_class(error_message),
         message: error_message
       },
       server: %{
@@ -65,6 +65,16 @@ defmodule Honeybadger.ErrorLogger do
 
     if response.status_code != 201 do
       raise "Unknown response from honeybadger: #{inspect(response)}"
+    end
+  end
+
+  defp error_class(error_message) do
+    result = Regex.scan(~r/\(RuntimeError\).+?:/, error_message)
+
+    if result == [] do
+      "Unknown"
+    else
+      result |> hd |> hd
     end
   end
 end
