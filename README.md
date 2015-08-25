@@ -2,7 +2,9 @@
 
 [CI status](https://circleci.com/gh/joakimk/honeybadger)
 
-**Status**: It's very basic, but it works. There is an official client in the works by the honeybadger team, so the future of this client is a bit unsure.
+**Status**: It's very basic, but it works.
+
+# This client is no longer being developed since the official client was released, you can find it here: <https://github.com/honeybadger-io/honeybadger-elixir>
 
 ## Usage
 
